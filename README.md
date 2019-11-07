@@ -25,6 +25,7 @@ The parser will remove the timestamps from the log and get rid of any empty line
 
 ### Author
 This parser was created by Radiun Huq. You can reach him at:
+
 `Email: radi@mrhuq.com`
 
 `Twitter: @radiunhuq`
