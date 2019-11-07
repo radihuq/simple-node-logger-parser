@@ -8,7 +8,7 @@ To install this project you can run:
 `npm install`
 
 ### Dependencies
-This project uses [axios](https://github.com/axios/axios) to fetch the log.
+This project uses [axios](https://github.com/axios/axios) to fetch the log. The log is generated through the use of [simple-node-logger](https://github.com/darrylwest/simple-node-logger).
 
 ### Usage
 Stringify your data when writing to your log file:
