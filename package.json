@@ -1,0 +1,23 @@
+{
+  "name": "logparser",
+  "version": "1.0.0",
+  "description": "Turn simple-node-logger logs into insights.",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radihuq/logparser.git"
+  },
+  "author": "Radiun Huq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radihuq/logparser/issues"
+  },
+  "homepage": "https://github.com/radihuq/logparser#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {}
+}
