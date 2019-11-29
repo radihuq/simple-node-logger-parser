@@ -4,6 +4,7 @@
   "description": "Turn simple-node-logger logs into insights.",
   "main": "parser.js",
   "scripts": {
+    "parser": "node -e \"require('./parser').parseLog()\""
   },
   "repository": {
     "type": "git",

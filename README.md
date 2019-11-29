@@ -18,29 +18,29 @@ The parser will remove the timestamps from the log and get rid of any empty line
 
 1. Stringify your data:
 
-    const data = {
-        cid: 'CjxJb2kYjmEgfossCKsI',
-        uid: 'HlMric5ByjzJ',
-        plugin: 1002,
-        action: 'enter',
-        timestamp: Date.now,
-        _unique: 'wHYOWEyC61x3uUJMRrC3'
-    }
+        const data = {
+            cid: 'CjxJb2kYjmEgfossCKsI',
+            uid: 'HlMric5ByjzJ',
+            plugin: 1002,
+            action: 'enter',
+            timestamp: Date.now,
+            _unique: 'wHYOWEyC61x3uUJMRrC3'
+        }
 
 2. Log your data:
 
-    log.info(JSON.stringify(data));
-    log.info(`[${data.cid}] (${data.uid}) ${data.plugin}: ${data.action}`);
+        log.info(JSON.stringify(data));
+        log.info(`[${data.cid}] (${data.uid}) ${data.plugin}: ${data.action}`);
 
 
 ##### Screenshots
-![Data input](./screenshots/screenshot_input.png)
+![Data input & calling simple-node-logger](./screenshots/screenshot_input.png)
 
-*Data input*
+*Data input & calling simple-node-logger*
 
-![Calling simple-node-logger](./screenshots/screenshot_log.png)
+![Example of logged datat](./screenshots/screenshot_log.png)
 
-*Calling simple-node-logger*
+*Example of logged data*
 
 
 #### Output
