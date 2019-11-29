@@ -38,7 +38,6 @@ The parser will remove the timestamps from the log and get rid of any empty line
         log.info(`[${data.cid}] (${data.uid}) ${data.plugin}: ${data.action}`);
 
 
-##### Screenshots
 ![Data input & calling simple-node-logger](./screenshots/screenshot_input.png)
 
 *Data input & calling simple-node-logger*
