@@ -11,6 +11,11 @@ To install this project you can run:
 This project uses [axios](https://github.com/axios/axios) to fetch the log. The log is generated through the use of [simple-node-logger](https://github.com/darrylwest/simple-node-logger).
 
 ### Usage
+
+Clone this repo and run `npm run parser`
+
+`https://github.com/radihuq/simple-node-logger-parser.git`
+
 The parser will remove the timestamps from the log and get rid of any empty lines. It will then `JSON.parse` each object and push it to a master array.
 
 #### Input
